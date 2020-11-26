@@ -6,5 +6,5 @@
 -also if you closed the webpage or reloaded, you can still view the last processed data.
 
 ## sever code condition
-$$projectData variable
+projectData variable: 
 -didn't increment data in that variable so it stores only the last data input not all the processed data since the server starts.
