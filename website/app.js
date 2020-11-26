@@ -36,7 +36,7 @@ generateButton.addEventListener("click", doAction =>{
 
     // then after the data acquired from the api, posting it to the server including the addetional info from DOM
     .then(function(data){
-        postData("/all", {date: `Date: ${newDate}`, temp: `Temprature: ${data.main.temp}`, feeling: `Your feeling: ${feelingField.value}`});
+        postData("/all", {date: `Date: ${newDate}`, temp: `Temprature: ${data.main.temp} C`, feeling: `Your feeling: ${feelingField.value}`});
     })
 
     // then requesting the full data again from the server and updating the DOM
